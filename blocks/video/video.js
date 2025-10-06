@@ -132,8 +132,6 @@ export default async function decorate(block) {
     block.append(wrapper);
   }
 
-
-
   if (!placeholder || autoplay) {
     const observer = new IntersectionObserver((entries) => {
       if (entries.some((e) => e.isIntersecting)) {
