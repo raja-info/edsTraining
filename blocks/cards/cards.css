@@ -8,13 +8,14 @@
 }
 
 .cards > ul > li {
-  border: 20px solid blue;
+  border: 20px solid green
   background-color: var(--background-color);
   
 }
 
 .cards .cards-card-body {
   margin: 16px;
+
 }
 
 .cards .cards-card-image {
